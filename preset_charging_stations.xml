@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0"
+    author="learnOSM.org"
+    version="1.0"
+    shortdescription="Ladestationen-Mapping für PotmCH"
+    description="Vereinfachtes Hinzufügen von Ladestationen im Rahmen des Project of the Month Switzerland">
+
+    <item name="#potmch Ladestation" type="node" icon="presets/vehicle/charging_station.svg">
+        <link href="DE:Project_of_the_month_Switzerland/Charging_Stations" />
+
+        <label text="#potmch Ladestation" />
+
+        <key key="amenity" value="charging_station" />
+
+        <space/>
+        <text key="name" text="Offizieller Name" default="" delete_if_empty="true" />
+
+        <space/>
+        <check key="motorcar" text="Autos?" default="on" delete_if_empty="false" />
+        <check key="motorcycle" text="Motorräder?" default="off" delete_if_empty="false" />
+        <check key="bicycle" text="Fahrräder?" default="off" delete_if_empty="false" />
+        <check key="hgv" text="Lastwagen?" default="off" delete_if_empty="false" />
+
+        <space/>
+        <text key="capacity" text="Anz. gleichzeitige Ladeplätze" default="" delete_if_empty="true" />
+        <combo key="access" text="Zugang" default="yes"
+            values="yes,customers,private"
+            display_values="Öffentlich,Kunden,Privat"/>
+        <text key="opening_hours" text="Nutzungszeiten" default="24/7" delete_if_empty="true" />
+        <check key="covered" text="Überdacht?" default="" delete_if_empty="true" />
+        <check key="fee" text="Ladegebühren?" default="on" delete_if_empty="true" />
+        <check key="parking:fee" text="Parkgebühren?" default="" delete_if_empty="true" />
+
+        <space/>
+        <combo key="network" text="Lade-Netzwerk (MSP)" default=""
+            values="eCarUp,evpass,Fastned,Swisscharge,Tesla,MOVE"
+            display_values="eCarUp,evpass (Green Motion SA),Fastned,Swisscharge,Tesla,MOVE"/>
+        <combo key="operator" text="Betreiber (CPO)" default=""
+            values="GOFAST,Ionity,Tesla"
+            display_values="GOFAST,Ionity,Tesla"/>
+
+        <space/>
+        <label text="Ladestecker (Anzahl)" />
+        <text key="socket:type1" text="Typ1" default="" delete_if_empty="true" />
+        <text key="socket:type2" text="Typ2 Buchse ohne Kabel" default="" delete_if_empty="true" />
+        <text key="socket:type2_cable" text="Typ2 Kabel" default="" delete_if_empty="true" />
+        <text key="socket:tesla_supercharger" text="Typ2 DC (Tesla)" default="" delete_if_empty="true" />
+        <text key="socket:type2_combo" text="CCS" default="" delete_if_empty="true" />
+        <text key="socket:chademo" text="CHAdeMO" default="" delete_if_empty="true" />
+        <text key="socket:socket:sev1011_t13" text="T13" default="" delete_if_empty="true" />
+        <text key="socket:socket:sev1011_t23" text="T23" default="" delete_if_empty="true" />
+
+        <space/>
+        <label text="Ladeleistung (z.B. '22 kW')" />
+        <text key="socket:type1:output" text="Typ1" default="" delete_if_empty="true" />
+        <text key="socket:type2:output" text="Typ2 Buchse ohne Kabel" default="" delete_if_empty="true" />
+        <text key="socket:type2_cable:output" text="Typ2 Kabel" default="" delete_if_empty="true" />
+        <text key="socket:tesla_supercharger:output" text="Typ2 DC (Tesla)" default="" delete_if_empty="true" />
+        <text key="socket:type2_combo:output" text="CCS" default="" delete_if_empty="true" />
+        <text key="socket:chademo:output" text="CHAdeMO" default="" delete_if_empty="true" />
+        <text key="socket:socket:sev1011_t13:output" text="T13" default="" delete_if_empty="true" />
+        <text key="socket:socket:sev1011_t23:output" text="T23" default="" delete_if_empty="true" />
+
+        <space/>
+        <label text="Freischalten (Authentisierung)" />
+        <check key="authentication:app" text="Freischalten per App?" default="" delete_if_empty="true" />
+        <check key="authentication:contactless" text="Freischalten per RFID/NFC?" default="" delete_if_empty="true" />
+        <check key="authentication:none" text="Ohne Registrierung nutzbar?" default="" delete_if_empty="true" />
+
+        <space/>
+        <label text="Zahlungsmöglichkeiten (Nur falls ohne App nutzbar, d.h. authentication:none=yes)" />
+        <check key="payment:sms" text="Zahlen per SMS?" default="" delete_if_empty="true" />
+        <check key="payment:credit_cards" text="Zahlen per Kreditkarte?" default="" delete_if_empty="true" />
+        <check key="payment:paypal" text="Zahlen per PayPal?" default="" delete_if_empty="true" />
+        <check key="payment:apple_pay" text="Zahlen per Apple Pay?" default="" delete_if_empty="true" />
+        <check key="payment:samsung_pay" text="Zahlen per Samsung Pay?" default="" delete_if_empty="true" />
+        <check key="payment:twint" text="Zahlen per Twint?" default="" delete_if_empty="true" />
+        <check key="payment:coins" text="Zahlen mit Münzen?" default="" delete_if_empty="true" />
+        <check key="payment:bills" text="Zahlen mit Banknoten?" default="" delete_if_empty="true" />
+
+        <space/>
+        <label text="(Preset: github.com/dbrgn/josm-preset-charging-station)" />
+        <label text="(Feedback: mail@dbrgn.ch)" />
+    </item>
+
+</presets>
