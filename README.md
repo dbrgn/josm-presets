@@ -16,3 +16,7 @@ vehicles](https://wiki.openstreetmap.org/wiki/DE:Project_of_the_month_Switzerlan
 **URL**
 
     https://raw.githubusercontent.com/dbrgn/josm-preset-potmch/main/preset_charging_stations.xml
+
+**Screenshot**
+
+![img](screenshot_charging_stations.png)
