@@ -33,8 +33,8 @@
 
         <space/>
         <combo key="network" text="Lade-Netzwerk (MSP)" default=""
-            values="eCarUp,evpass,Fastned,Swisscharge,Tesla,MOVE"
-            display_values="eCarUp,evpass (Green Motion SA),Fastned,Swisscharge,Tesla,MOVE"/>
+            values="eCarUp,evpass,Fastned,Plug'n Roll,Swisscharge,Tesla,MOVE"
+            display_values="eCarUp,evpass (Green Motion SA),Fastned,Plug'n Roll,Swisscharge,Tesla,MOVE"/>
         <combo key="operator" text="Betreiber (CPO)" default=""
             values="GOFAST,Ionity,Tesla"
             display_values="GOFAST,Ionity,Tesla"/>
