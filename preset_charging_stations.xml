@@ -36,8 +36,8 @@
             values="eCarUp,evpass,Fastned,Plug'n Roll,Swisscharge,Tesla,MOVE"
             display_values="eCarUp,evpass (Green Motion SA),Fastned,Plug'n Roll,Swisscharge,Tesla,MOVE"/>
         <combo key="operator" text="Betreiber (CPO)" default=""
-            values="GOFAST,Ionity,Tesla"
-            display_values="GOFAST,Ionity,Tesla"/>
+            values="GOFAST,Ionity,Tesla,Energie 360°"
+            display_values="GOFAST,Ionity,Tesla,Energie 360°"/>
 
         <space/>
         <label text="Ladestecker (Anzahl)" />
