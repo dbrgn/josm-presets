@@ -71,6 +71,7 @@
         <label text="Zahlungsmöglichkeiten (Nur falls ohne App nutzbar, d.h. authentication:none=yes)" />
         <check key="payment:sms" text="Zahlen per SMS?" default="" delete_if_empty="true" />
         <check key="payment:credit_cards" text="Zahlen per Kreditkarte?" default="" delete_if_empty="true" />
+        <check key="payment:maestro" text="Zahlen per Maestro?" default="" delete_if_empty="true" />
         <check key="payment:paypal" text="Zahlen per PayPal?" default="" delete_if_empty="true" />
         <check key="payment:apple_pay" text="Zahlen per Apple Pay?" default="" delete_if_empty="true" />
         <check key="payment:google_pay" text="Zahlen per Google Pay?" default="" delete_if_empty="true" />
