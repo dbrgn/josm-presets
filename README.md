@@ -1,4 +1,4 @@
-# JOSM Presets for PotmCH
+# JOSM Presets
 
 Presets can be added to JOSM through `Edit > Preferences > Tagging Presets >
 +`. After adding the preset with the URL, make sure to restart JOSM.
@@ -15,7 +15,9 @@ vehicles](https://wiki.openstreetmap.org/wiki/DE:Project_of_the_month_Switzerlan
 
 **URL**
 
-    https://raw.githubusercontent.com/dbrgn/josm-preset-potmch/main/preset_charging_stations.xml
+Switzerland:
+
+    https://raw.githubusercontent.com/dbrgn/josm-presets/main/charging_stations_switzerland.xml
 
 **Screenshot**
 

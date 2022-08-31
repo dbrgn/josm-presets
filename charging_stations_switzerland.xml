@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0"
-    author="learnOSM.org"
+<presets
+    xmlns="http://josm.openstreetmap.de/tagging-preset-1.0"
+    author="Danilo Bargen"
     version="1.0"
-    shortdescription="Ladestationen-Mapping für PotmCH"
-    description="Vereinfachtes Hinzufügen von Ladestationen im Rahmen des Project of the Month Switzerland">
+    shortdescription="Ladestationen Schweiz"
+    description="Vereinfachtes Hinzufügen von Ladestationen (Schweiz)">
 
-    <item name="#potmch Ladestation" type="node" icon="presets/vehicle/charging_station.svg">
+    <item name="Ladestation" type="node" icon="presets/vehicle/charging_station.svg">
         <link href="DE:Project_of_the_month_Switzerland/Charging_Stations" />
 
-        <label text="#potmch Ladestation" />
+        <label text="Ladestation" />
 
         <key key="amenity" value="charging_station" />
 
