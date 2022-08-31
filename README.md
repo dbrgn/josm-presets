@@ -3,7 +3,7 @@
 Presets can be added to JOSM through `Edit > Preferences > Tagging Presets >
 +`. After adding the preset with the URL, make sure to restart JOSM.
 
-Then, use the preset after selecting a node by going to `Presets > [Preset name]`.
+Then, use the preset after selecting a node by going to `Presets > [Preset path]`.
 
 Once the form opens, if you click on the pin icon in the top right corner,
 you'll get a corresponding icon directly in the main toolbar.
@@ -12,6 +12,10 @@ you'll get a corresponding icon directly in the main toolbar.
 
 The preset is used to map [charging stations for electric
 vehicles](https://wiki.openstreetmap.org/wiki/DE:Project_of_the_month_Switzerland/Charging_Stations).
+
+**Path**
+
+    Presets > Transport > Car > Charging Station (Switzerland)
 
 **URL**
 
