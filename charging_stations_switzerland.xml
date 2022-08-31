@@ -2,11 +2,20 @@
 <presets
     xmlns="http://josm.openstreetmap.de/tagging-preset-1.0"
     author="Danilo Bargen"
-    version="1.0"
-    shortdescription="Ladestationen Schweiz"
-    description="Vereinfachtes Hinzufügen von Ladestationen (Schweiz)">
+    version="2.0"
+    shortdescription="Charging Station (Switzerland)"
+    de.shortdescription="Ladestation (Schweiz)"
+    description="Simplified creation of EV charging stations (Switzerland)"
+    de.description="Vereinfachtes Hinzufügen von Ladestationen (Schweiz)">
 
-    <item name="Ladestation" type="node" icon="presets/vehicle/charging_station.svg">
+    <group name="Transport">
+    <group name="Car">
+    <item
+        name="Charging Station (Switzerland)"
+        de.name="Ladestation (Schweiz)"
+        type="node"
+        icon="presets/vehicle/charging_station.svg">
+
         <link href="DE:Project_of_the_month_Switzerland/Charging_Stations" />
 
         <label text="Ladestation" />
@@ -82,8 +91,10 @@
         <check key="payment:bills" text="Zahlen mit Banknoten?" default="" delete_if_empty="true" />
 
         <space/>
-        <label text="(Preset: github.com/dbrgn/josm-preset-charging-station)" />
+        <label text="(Preset: github.com/dbrgn/josm-presets)" />
         <label text="(Feedback: mail@dbrgn.ch)" />
     </item>
+    </group>
+    </group>
 
 </presets>
