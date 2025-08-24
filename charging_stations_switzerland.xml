@@ -84,6 +84,11 @@
         <check key="payment:bills" text="Zahlen mit Banknoten?" default="" delete_if_empty="true" />
 
         <space/>
+        <label text="Referenzen" />
+        <text key="ref" text="Referenz des Ladeanbieters" default="" delete_if_empty="true" />
+        <text key="ref:EU:EVSE" text="EVSE(s) falls vorhanden" default="" delete_if_empty="true" />
+
+        <space/>
         <label text="(Preset: github.com/dbrgn/josm-presets)" />
         <label text="(Feedback: mail@dbrgn.ch)" />
     </item>
