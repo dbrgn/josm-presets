@@ -42,12 +42,10 @@
         <check key="parking:fee" text="Parkgebühren?" default="" delete_if_empty="true" />
 
         <space/>
-        <combo key="network" text="Lade-Netzwerk (MSP)" default=""
-            values="eCarUp,evpass,Fastned,Plug'n Roll,Swisscharge,Tesla,MOVE"
-            display_values="eCarUp,evpass (Green Motion SA),Fastned,Plug'n Roll,Swisscharge,Tesla,MOVE"/>
-        <combo key="operator" text="Betreiber (CPO)" default=""
-            values="GOFAST,Ionity,Tesla,Energie 360°"
-            display_values="GOFAST,Ionity,Tesla,Energie 360°"/>
+        <combo key="brand" text="Marke (Brand)" default=""
+            values="Agrola,eCarUp,Energie 360°,evpass,Fastned,GOFAST,Ionity,MOVE,Plug'n Roll,SOCAR Charge,Tesla"
+            display_values="Agrola,eCarUp,Energie 360°,evpass,Fastned,GOFAST,Ionity,MOVE,Plug'n Roll,SOCAR Charge,Tesla"/>
+        <text key="operator" text="Betreiber (CPO), falls anders als Marke" default="" delete_if_empty="true" />
 
         <space/>
         <label text="Ladestecker (Anzahl)" />
