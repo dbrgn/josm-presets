@@ -24,6 +24,8 @@
 
         <space/>
         <text key="name" text="Offizieller Name" default="" delete_if_empty="true" />
+        <text key="ref" text="Referenz des Ladeanbieters" default="" delete_if_empty="true" />
+        <text key="ref:EU:EVSE" text="EVSE(s) falls vorhanden" default="" delete_if_empty="true" />
 
         <space/>
         <check key="motorcar" text="Autos?" default="on" delete_if_empty="false" />
@@ -80,13 +82,7 @@
         <check key="payment:contactless" text="Zahlen per kontaktloser Zahlungskarte?" default="" delete_if_empty="true" />
         <check key="payment:credit_cards" text="Zahlen per Kreditkarte (mit Chip)?" default="" delete_if_empty="true" />
         <check key="payment:sms" text="Zahlen per SMS?" default="" delete_if_empty="true" />
-        <check key="payment:coins" text="Zahlen mit Münzen?" default="" delete_if_empty="true" />
-        <check key="payment:bills" text="Zahlen mit Banknoten?" default="" delete_if_empty="true" />
-
-        <space/>
-        <label text="Referenzen" />
-        <text key="ref" text="Referenz des Ladeanbieters" default="" delete_if_empty="true" />
-        <text key="ref:EU:EVSE" text="EVSE(s) falls vorhanden" default="" delete_if_empty="true" />
+        <check key="payment:cash" text="Zahlen mit Bargeld?" default="" delete_if_empty="true" />
 
         <space/>
         <label text="(Preset: github.com/dbrgn/josm-presets)" />
