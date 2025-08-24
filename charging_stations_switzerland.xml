@@ -27,7 +27,7 @@
 
         <space/>
         <check key="motorcar" text="Autos?" default="on" delete_if_empty="false" />
-        <check key="motorcycle" text="Motorräder?" default="off" delete_if_empty="false" />
+        <check key="motorcycle" text="Motorräder?" default="on" delete_if_empty="false" />
         <check key="bicycle" text="Fahrräder?" default="off" delete_if_empty="false" />
         <check key="hgv" text="Lastwagen?" default="off" delete_if_empty="false" />
 
