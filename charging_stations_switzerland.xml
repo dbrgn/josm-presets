@@ -77,14 +77,9 @@
 
         <space/>
         <label text="Zahlungsmöglichkeiten (Nur falls ohne App nutzbar, d.h. authentication:none=yes)" />
+        <check key="payment:contactless" text="Zahlen per kontaktloser Zahlungskarte?" default="" delete_if_empty="true" />
+        <check key="payment:credit_cards" text="Zahlen per Kreditkarte (mit Chip)?" default="" delete_if_empty="true" />
         <check key="payment:sms" text="Zahlen per SMS?" default="" delete_if_empty="true" />
-        <check key="payment:credit_cards" text="Zahlen per Kreditkarte?" default="" delete_if_empty="true" />
-        <check key="payment:maestro" text="Zahlen per Maestro?" default="" delete_if_empty="true" />
-        <check key="payment:paypal" text="Zahlen per PayPal?" default="" delete_if_empty="true" />
-        <check key="payment:apple_pay" text="Zahlen per Apple Pay?" default="" delete_if_empty="true" />
-        <check key="payment:google_pay" text="Zahlen per Google Pay?" default="" delete_if_empty="true" />
-        <check key="payment:samsung_pay" text="Zahlen per Samsung Pay?" default="" delete_if_empty="true" />
-        <check key="payment:twint" text="Zahlen per Twint?" default="" delete_if_empty="true" />
         <check key="payment:coins" text="Zahlen mit Münzen?" default="" delete_if_empty="true" />
         <check key="payment:bills" text="Zahlen mit Banknoten?" default="" delete_if_empty="true" />
 
